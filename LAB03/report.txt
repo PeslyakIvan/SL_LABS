@@ -1,0 +1,7 @@
+ivan
+/home/ivan/linux_lab
+uid=1000(ivan) gid=1000(ivan) groups=1000(ivan),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+total 4
+-rw-rw-r-- 2 ivan ivan 5 Oct 17 17:34 main.py
+-rw-rw-r-- 1 ivan ivan 0 Oct 17 17:19 utils.sh
+Fri Oct 17 05:54:20 PM +03 2025
