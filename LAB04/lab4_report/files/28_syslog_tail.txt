@@ -1,0 +1,20 @@
+2025-10-24T17:50:26.122955+03:00 peslyak-VirtualBox PackageKit: daemon start
+2025-10-24T17:50:26.134106+03:00 peslyak-VirtualBox dbus-daemon[584]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2025-10-24T17:50:26.134226+03:00 peslyak-VirtualBox systemd[1]: Started packagekit.service - PackageKit Daemon.
+2025-10-24T17:52:48.089397+03:00 peslyak-VirtualBox dbus-daemon[584]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.84' (uid=1000 pid=4579 comm="xfce4-screenshooter -w" label="unconfined")
+2025-10-24T17:52:48.099166+03:00 peslyak-VirtualBox systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-10-24T17:52:48.161434+03:00 peslyak-VirtualBox gvfsd-wsdd[4610]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+2025-10-24T17:52:48.161523+03:00 peslyak-VirtualBox dbus-daemon[584]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-10-24T17:52:48.161549+03:00 peslyak-VirtualBox systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-10-24T17:52:48.161898+03:00 peslyak-VirtualBox gvfsd-network[4598]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+2025-10-24T17:53:03.137488+03:00 peslyak-VirtualBox dbus-daemon[1304]: [session uid=1000 pid=1304] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.27' (uid=1000 pid=1656 comm="Thunar --daemon" label="unconfined")
+2025-10-24T17:53:03.142295+03:00 peslyak-VirtualBox systemd[1281]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+2025-10-24T17:53:03.150246+03:00 peslyak-VirtualBox dbus-daemon[1304]: [session uid=1000 pid=1304] Successfully activated service 'org.gtk.vfs.Metadata'
+2025-10-24T17:53:03.150702+03:00 peslyak-VirtualBox systemd[1281]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+2025-10-24T17:53:03.350144+03:00 peslyak-VirtualBox dbus-daemon[1304]: [session uid=1000 pid=1304] Activating via systemd: service name='org.freedesktop.thumbnails.Thumbnailer1' unit='tumblerd.service' requested by ':1.27' (uid=1000 pid=1656 comm="Thunar --daemon" label="unconfined")
+2025-10-24T17:53:03.356072+03:00 peslyak-VirtualBox systemd[1281]: Starting tumblerd.service - Thumbnailing service...
+2025-10-24T17:53:03.402968+03:00 peslyak-VirtualBox dbus-daemon[1304]: [session uid=1000 pid=1304] Successfully activated service 'org.freedesktop.thumbnails.Thumbnailer1'
+2025-10-24T17:53:03.403590+03:00 peslyak-VirtualBox systemd[1281]: Started tumblerd.service - Thumbnailing service.
+2025-10-24T17:53:18.205489+03:00 peslyak-VirtualBox systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-10-24T17:55:36.169027+03:00 peslyak-VirtualBox PackageKit: daemon quit
+2025-10-24T17:55:36.172455+03:00 peslyak-VirtualBox systemd[1]: packagekit.service: Deactivated successfully.

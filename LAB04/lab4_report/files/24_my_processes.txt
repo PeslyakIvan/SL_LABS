@@ -1,0 +1,65 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ivan        1281  0.0  0.2  20560 11392 ?        Ss   16:50   0:00 /usr/lib/systemd/systemd --user
+ivan        1282  0.0  0.0  23000  3784 ?        S    16:50   0:00 (sd-pam)
+ivan        1294  0.0  0.3 121428 12520 ?        S<sl 16:50   0:00 /usr/bin/pipewire
+ivan        1295  0.0  0.1 105852  6140 ?        Ssl  16:50   0:00 /usr/bin/pipewire -c filter-chain.conf
+ivan        1297  0.0  0.4 414936 18848 ?        S<sl 16:50   0:00 /usr/bin/wireplumber
+ivan        1298  0.0  0.2 117920 11244 ?        S<sl 16:50   0:00 /usr/bin/pipewire-pulse
+ivan        1299  0.0  0.2 324624 10284 ?        SLsl 16:50   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+ivan        1304  0.0  0.1  10144  5736 ?        Ss   16:50   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ivan        1320  0.0  0.6 384848 25740 ?        Ssl  16:50   0:00 xfce4-session
+ivan        1457  0.0  0.0  27608  1424 ?        S    16:50   0:00 /usr/bin/VBoxClient --clipboard
+ivan        1459  0.0  0.1 226416  4384 ?        Sl   16:50   0:00 /usr/bin/VBoxClient --clipboard
+ivan        1465  0.0  0.0  27608  1376 ?        S    16:50   0:00 /usr/bin/VBoxClient --seamless
+ivan        1467  0.0  0.0 225764  3088 ?        Sl   16:50   0:00 /usr/bin/VBoxClient --seamless
+ivan        1473  0.0  0.0  27608  1436 ?        S    16:50   0:00 /usr/bin/VBoxClient --draganddrop
+ivan        1475  0.1  0.0 226280  2980 ?        Sl   16:50   0:03 /usr/bin/VBoxClient --draganddrop
+ivan        1489  0.0  0.0  27608  1420 ?        S    16:50   0:00 /usr/bin/VBoxClient --vmsvga-session
+ivan        1490  0.0  0.0 225944  3504 ?        Sl   16:50   0:00 /usr/bin/VBoxClient --vmsvga-session
+ivan        1584  0.0  0.1 322380  7904 ?        Ssl  16:50   0:00 /usr/libexec/gvfsd
+ivan        1590  0.0  0.1 467828  7168 ?        Sl   16:50   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ivan        1597  0.0  0.2 383104  8028 ?        Ssl  16:50   0:00 /usr/libexec/at-spi-bus-launcher
+ivan        1606  0.0  0.1   9556  5036 ?        S    16:50   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+ivan        1608  0.0  0.1 317920  6520 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+ivan        1615  0.0  0.1 236016  7924 ?        Sl   16:50   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ivan        1622  0.0  0.0   8300  1460 ?        Ss   16:50   0:00 /usr/bin/ssh-agent -s
+ivan        1631  0.0  0.0 165828  3460 ?        SLsl 16:50   0:00 /usr/bin/gpg-agent --supervised
+ivan        1634  0.0  2.7 967208 110840 ?       Sl   16:50   0:00 xfwm4
+ivan        1644  0.0  0.6 312188 27436 ?        Sl   16:50   0:00 xfsettingsd
+ivan        1651  0.0  0.9 467644 38948 ?        Sl   16:50   0:00 xfce4-panel
+ivan        1656  0.0  0.6 459092 26248 ?        Sl   16:50   0:00 Thunar --daemon
+ivan        1662  0.0  1.2 479440 51240 ?        Sl   16:50   0:00 xfdesktop
+ivan        1666  0.0  1.0 545536 43780 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 23068679 whiskermenu Whisker Menu Show a menu to easily access installed applications
+ivan        1667  0.0  0.6 458008 26776 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 8 23068680 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+ivan        1668  0.0  1.0 469988 40412 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 9 23068681 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+ivan        1671  0.0  1.0 544212 41536 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxapp-status-plugin.so 10 23068682 xapp-status-plugin XApp Status Plugin Area where XApp Status icons appear
+ivan        1673  0.0  1.0 396876 41312 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 11 23068683 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+ivan        1674  0.0  1.0 467372 43348 ?        Sl   16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 12 23068684 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+ivan        1704  0.0  1.5 578084 62392 ?        Sl   16:50   0:03 mintreport-tray
+ivan        1706  0.0  0.5 306400 20352 ?        Sl   16:50   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ivan        1709  0.0  1.1 474424 44148 ?        Ssl  16:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ivan        1722  0.0  0.9  74576 39576 ?        S    16:50   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+ivan        1725  0.0  1.4 566388 59980 ?        Sl   16:50   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+ivan        1727  0.0  0.5 307300 21580 ?        Sl   16:50   0:00 xfce4-power-manager
+ivan        1730  0.0  0.2 471200 10820 ?        Ssl  16:50   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ivan        1738  0.0  0.1 317912  6752 ?        Ssl  16:50   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ivan        1744  0.0  1.1 554652 44244 ?        Sl   16:50   0:00 nm-applet
+ivan        1748  0.0  0.2 397492  8040 ?        Ssl  16:50   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ivan        1756  0.0  0.1 317888  6716 ?        Ssl  16:50   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ivan        1762  0.0  0.6 554516 24384 ?        Sl   16:50   0:00 /usr/libexec/goa-daemon
+ivan        1769  0.0  1.5 828368 62444 ?        Sl   16:50   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ivan        1772  0.0  0.6 383860 25692 ?        Sl   16:50   0:00 light-locker
+ivan        1784  0.0  0.2 397240  9392 ?        Sl   16:50   0:00 /usr/libexec/goa-identity-service
+ivan        1791  0.0  0.1 318880  7176 ?        Ssl  16:50   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ivan        1814  0.0  0.1 318376  6600 ?        Sl   16:50   0:00 /usr/libexec/geoclue-2.0/demos/agent
+ivan        1824  0.0  0.2 922036  9048 ?        Sl   16:50   0:00 xiccd
+ivan        1868  0.0  0.1 230240  5732 ?        Ssl  16:50   0:00 /usr/libexec/dconf-service
+ivan        1947  0.0  1.0 601020 42864 ?        Ssl  16:50   0:00 /usr/libexec/evolution-source-registry
+ivan        1956  0.0  0.6 899100 24772 ?        Ssl  16:50   0:00 /usr/libexec/evolution-calendar-factory
+ivan        1966  0.0  0.7 759848 30000 ?        Ssl  16:50   0:00 /usr/libexec/evolution-addressbook-factory
+ivan        1991  0.0  2.2 899152 88920 ?        Sl   16:50   0:00 mintUpdate
+ivan        1992  0.0  0.2  49072  8200 ?        Ss   16:50   0:00 /usr/libexec/bluetooth/obexd
+ivan        2056  0.0  1.1 479784 44300 ?        Sl   16:51   0:01 xfce4-terminal
+ivan        2062  0.0  0.1  22016  7740 pts/0    Ss   16:51   0:01 zsh
+ivan        3860  0.0  0.0  16404  2116 pts/0    SN   17:42   0:00 sleep 1h
+ivan        3869  0.0  0.1  21736  4748 pts/0    R+   17:43   0:00 ps ux

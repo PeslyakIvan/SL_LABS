@@ -1,0 +1,8 @@
+root         277  0.0  0.4  50576 16640 ?        S<s  16:50   0:00 /usr/lib/systemd/systemd-journald
+root         331  0.0  0.1  29884  7632 ?        Ss   16:50   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     468  0.0  0.3  21584 13072 ?        Ss   16:50   0:00 /usr/lib/systemd/systemd-resolved
+message+     584  0.0  0.1  11012  6552 ?        Ss   16:50   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         616  0.0  0.2  18116  9136 ?        Ss   16:50   0:00 /usr/lib/systemd/systemd-logind
+ivan        1281  0.0  0.2  20560 11392 ?        Ss   16:50   0:00 /usr/lib/systemd/systemd --user
+ivan        1304  0.0  0.1  10176  5968 ?        Ss   16:50   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ivan        4667  0.0  0.0  17392  2320 pts/0    S+   17:54   0:00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox --exclude-dir=.venv --exclude-dir=venv systemd
