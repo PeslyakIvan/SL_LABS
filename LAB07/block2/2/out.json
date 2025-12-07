@@ -1,0 +1,10 @@
+[
+    {
+        "account_id": "acc_abc_002",
+        "username": "user2",
+        "email": "user2@service.com",
+        "status": "inactive",
+        "last_login": "2023-12-10",
+        "storage_used": 1.2
+    }
+]
